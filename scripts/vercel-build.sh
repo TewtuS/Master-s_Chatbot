@@ -15,9 +15,11 @@ test "$(git -C "$FLUTTER_DIR" describe --tags --exact-match HEAD)" = "$FLUTTER_V
 export PATH="$FLUTTER_DIR/bin:$PATH"
 export CI=true
 export FLUTTER_SUPPRESS_ANALYTICS=true
+# Bootstrap first: a first-ever Flutter invocation can write download progress
+# to stdout, which would contaminate the machine-readable JSON below.
+flutter config --no-analytics
 flutter --version --machine > "$FLUTTER_DIR/verified-version.json"
 node -e 'const fs = require("fs"); const v = JSON.parse(fs.readFileSync(process.argv[1], "utf8")); if (v.frameworkVersion !== process.argv[2]) { throw new Error(`Expected Flutter ${process.argv[2]}, got ${v.frameworkVersion}`); } console.log(`Building with Flutter ${v.frameworkVersion}, Dart ${v.dartSdkVersion}`);' \
   "$FLUTTER_DIR/verified-version.json" "$FLUTTER_VERSION"
-flutter config --no-analytics
 flutter pub get
 flutter build web --release
