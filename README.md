@@ -29,6 +29,6 @@ flutter build web
 
 ## Deploy on Vercel
 
-Import this GitHub repository into Vercel and select **Other** as the framework preset. Keep the repository root as the root directory. The committed `vercel.json` runs `scripts/vercel-build.sh` and serves `build/web`. The script installs the exact Flutter SDK revision used locally, resolves dependencies, and builds the release app. The first cloud build downloads the SDK and requires outbound network access. No environment variables are needed for this demo.
+Import this GitHub repository into Vercel and select **Other** as the framework preset. Keep the repository root as the root directory. The committed `vercel.json` runs `scripts/vercel-build.sh` and serves `build/web`. The script installs the tagged Flutter 3.29.3 stable release, verifies the reported SDK version, resolves dependencies, and builds the release app. Local validation originally used Flutter 3.27 development; the Linux cloud build is a separate check. The first cloud build downloads the SDK and requires outbound network access. No environment variables are needed for this demo.
 
 Vercel deployment itself has not been verified by the local checks.
