@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+inputs/*
+!inputs/.gitkeep
+!inputs/README.md
+outputs/*
+!outputs/.gitkeep
+.DS_Store

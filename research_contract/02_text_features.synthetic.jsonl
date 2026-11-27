@@ -1,0 +1,6 @@
+{"review_id": "syn_001", "status": "ok", "sentiment_negative": 0.9, "sentiment_neutral": 0.08, "sentiment_positive": 0.02, "text_word_count": 4, "error_code": null, "run_id": "synthetic_text_v1"}
+{"review_id": "syn_002", "status": "ok", "sentiment_negative": 0.01, "sentiment_neutral": 0.04, "sentiment_positive": 0.95, "text_word_count": 2, "error_code": null, "run_id": "synthetic_text_v1"}
+{"review_id": "syn_003", "status": "ok", "sentiment_negative": 0.4, "sentiment_neutral": 0.5, "sentiment_positive": 0.1, "text_word_count": 6, "error_code": null, "run_id": "synthetic_text_v1"}
+{"review_id": "syn_004", "status": "ok", "sentiment_negative": 0.94, "sentiment_neutral": 0.05, "sentiment_positive": 0.01, "text_word_count": 4, "error_code": null, "run_id": "synthetic_text_v1"}
+{"review_id": "syn_005", "status": "ok", "sentiment_negative": 0.02, "sentiment_neutral": 0.13, "sentiment_positive": 0.85, "text_word_count": 3, "error_code": null, "run_id": "synthetic_text_v1"}
+{"review_id": "syn_006", "status": "ok", "sentiment_negative": 0.1, "sentiment_neutral": 0.8, "sentiment_positive": 0.1, "text_word_count": 3, "error_code": null, "run_id": "synthetic_text_v1"}
