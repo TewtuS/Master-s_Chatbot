@@ -1,0 +1,6 @@
+{"review_id": "syn_001", "parent_asin": "SYN_PRODUCT_1", "rating": 2, "helpful_vote": 5, "verified_purchase": true, "timestamp_ms": 1578528394490, "image_count": 2, "review_text": "The clasp arrived broken.", "split": "train"}
+{"review_id": "syn_002", "parent_asin": "SYN_PRODUCT_1", "rating": 5, "helpful_vote": 0, "verified_purchase": true, "timestamp_ms": 1578528394491, "image_count": 0, "review_text": "Looks lovely.", "split": "train"}
+{"review_id": "syn_003", "parent_asin": "SYN_PRODUCT_2", "rating": 3, "helpful_vote": 1, "verified_purchase": true, "timestamp_ms": 1578528394492, "image_count": 1, "review_text": "The colour differs from the listing.", "split": "validation"}
+{"review_id": "syn_004", "parent_asin": "SYN_PRODUCT_2", "rating": 1, "helpful_vote": 2, "verified_purchase": true, "timestamp_ms": 1578528394493, "image_count": 1, "review_text": "The seam is torn.", "split": "validation"}
+{"review_id": "syn_005", "parent_asin": "SYN_PRODUCT_3", "rating": 4, "helpful_vote": 0, "verified_purchase": true, "timestamp_ms": 1578528394494, "image_count": 1, "review_text": "Fits as expected.", "split": "test"}
+{"review_id": "syn_006", "parent_asin": "SYN_PRODUCT_3", "rating": 3, "helpful_vote": 0, "verified_purchase": true, "timestamp_ms": 1578528394495, "image_count": 1, "review_text": "It is okay.", "split": "test"}

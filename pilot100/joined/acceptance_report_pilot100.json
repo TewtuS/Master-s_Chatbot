@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "generated_at_utc": "2026-11-27T17:47:59.386825+00:00",
+  "row_count": 100,
+  "counts": {
+    "joined_rows": 100,
+    "image_status": {
+      "ok": 100
+    },
+    "source_mix": {
+      "with_image_features": 50,
+      "filled_image_side": 50
+    },
+    "rating_distribution": {
+      "3": 23,
+      "5": 35,
+      "1": 13,
+      "4": 21,
+      "2": 8
+    },
+    "split_distribution": {
+      "validation": 29,
+      "train": 44,
+      "test": 27
+    }
+  }
+}

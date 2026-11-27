@@ -1,3 +1,14 @@
+# Backend (Person-4 join service)
+backend/.venv/
+backend/venv/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/inputs/*
+!backend/inputs/.gitkeep
+!backend/inputs/README.md
+backend/outputs/*
+!backend/outputs/.gitkeep
+
 # Miscellaneous
 *.class
 *.log
