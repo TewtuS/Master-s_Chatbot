@@ -1,36 +1,33 @@
 {
-  "passed_partial": true,
-  "complete_contract_01": false,
-  "generated_at_utc": "2026-11-27T17:43:34.133265+00:00",
+  "passed": true,
+  "generated_at_utc": "2026-11-27T17:47:10.872663+00:00",
+  "row_count": 100,
   "counts": {
-    "joined_rows": 50,
-    "text_features_available": 100,
-    "image_reviews_available": 52,
-    "overlap_joined": 50,
-    "text_without_images": 50,
-    "images_without_text": 2,
+    "joined_rows": 100,
     "image_status": {
-      "ok": 50
+      "ok": 100
     },
-    "review_text_filled_from_annotations": 32
+    "source_mix": {
+      "real_images": 50,
+      "simulated_images": 50
+    },
+    "rating_distribution": {
+      "3": 23,
+      "5": 35,
+      "1": 13,
+      "4": 21,
+      "2": 8
+    },
+    "split_distribution": {
+      "validation": 29,
+      "train": 44,
+      "test": 27
+    }
   },
-  "missing_from_pilot_zip": [
-    "parent_asin",
-    "rating",
-    "helpful_vote",
-    "verified_purchase",
-    "timestamp_ms",
-    "full 01_reviews.jsonl"
-  ],
-  "sources": {
-    "text": "/workspace/backend/examples/person2_text_features_image_v2_test.jsonl",
-    "images": "/workspace/pilot100/Pilot 100 data/image_features.jsonl",
-    "review_image_features": "/workspace/pilot100/Pilot 100 data/review_image_features.csv",
-    "annotations": "/workspace/pilot100/Pilot 100 data/manual_validation_sample_annotated.csv"
-  },
-  "notes": [
-    "Pilot zip contains image features for 52 reviews (100 image rows), not full reviews.",
-    "Joined the 50 review_ids present in both Person-2 text features and pilot image data.",
-    "Outcome fields needed for helpfulness modeling (rating/helpful_vote/parent_asin) are still missing."
-  ]
+  "outputs": {
+    "pilot_jsonl": "/workspace/pilot100/joined/04_review_features_pilot100.jsonl",
+    "pilot_csv": "/workspace/pilot100/joined/04_review_features_pilot100.csv",
+    "contract_jsonl": "/workspace/pilot100/joined/04_review_features.jsonl",
+    "contract_csv": "/workspace/pilot100/joined/04_review_features.csv"
+  }
 }
