@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "generated_at_utc": "2026-11-27T17:47:10.872663+00:00",
+  "generated_at_utc": "2026-11-27T17:47:59.386825+00:00",
   "row_count": 100,
   "counts": {
     "joined_rows": 100,
@@ -8,8 +8,8 @@
       "ok": 100
     },
     "source_mix": {
-      "real_images": 50,
-      "simulated_images": 50
+      "with_image_features": 50,
+      "filled_image_side": 50
     },
     "rating_distribution": {
       "3": 23,
@@ -23,11 +23,5 @@
       "train": 44,
       "test": 27
     }
-  },
-  "outputs": {
-    "pilot_jsonl": "/workspace/pilot100/joined/04_review_features_pilot100.jsonl",
-    "pilot_csv": "/workspace/pilot100/joined/04_review_features_pilot100.csv",
-    "contract_jsonl": "/workspace/pilot100/joined/04_review_features.jsonl",
-    "contract_csv": "/workspace/pilot100/joined/04_review_features.csv"
   }
 }
